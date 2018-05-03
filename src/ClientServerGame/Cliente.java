@@ -11,7 +11,6 @@ public class Cliente {
     private static final int NUM_ROWS = 6;
     private static final int NUM_COLS = 6;
     private static boolean playing = true;
-
     private static char[][] boardToShowPlayer1 = new char[NUM_ROWS][NUM_COLS];
     private static char[][] boardToShowPlayer2 = new char[NUM_ROWS][NUM_COLS];
 

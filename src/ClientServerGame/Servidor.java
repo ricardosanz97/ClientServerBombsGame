@@ -154,6 +154,7 @@ public class Servidor {
     }
 
     private static void processPlayReceived(String jugada, int player) throws IOException {
+        
         StringTokenizer stringTokenizer = new StringTokenizer(jugada);
         int row = Integer.parseInt(stringTokenizer.nextToken());
         int col = Integer.parseInt(stringTokenizer.nextToken());
